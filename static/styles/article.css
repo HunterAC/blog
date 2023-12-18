@@ -1,0 +1,17 @@
+article {
+  font-family: 'Sanchez', serif;
+}
+
+.article-title {
+  margin-bottom: 0;
+}
+
+.article-byline {
+  display: flex;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.article-byline p {
+  margin-top: 0;
+}

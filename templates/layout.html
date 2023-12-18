@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://unpkg.com/htmx.org@1.9.9"
+    integrity="sha384-QFjmbokDn2DjBjq+fM+8LUIVrAgqcNW2s0PjAxHETgRn9l4fvX31ZxDxvwQnyMOX"
+    crossorigin="anonymous"></script>
+  <title>{{block "title" .}}No title content defined{{end}}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles/styles.css">
+  <link rel="stylesheet" href="/static/styles/article.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <h1>Tokyrios</h1>
+    <div class="header-links">
+      <a>Articles</a>
+      <a>Apps</a>
+      <a>About</a>
+    </div>
+  </header>
+  {{block "body" .}}No body content defined{{end}}
+</body>
+
+</html>

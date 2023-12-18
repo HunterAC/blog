@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: #fffefa;
+}
+
+.page-header {
+  background-color: #ffffff;
+  padding: 0 1rem;
+  margin: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Sanchez', serif;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.12);
+}
+
+.header-links {
+  display: flex;
+  gap: 1rem;
+}
